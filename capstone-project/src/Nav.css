@@ -1,0 +1,34 @@
+.navStyle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+ .leftContainerStyle {
+    display: flex;
+    align-items: center;
+
+}
+
+.navLinksStyle  {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    
+}
+
+.navLinksStyle:hover {
+    cursor: pointer;
+    
+}
+
+a {
+    transition: all .2s ease-in-out;
+}
+
+a:hover {
+    transform: scale(1.1);
+    color: #F4ce14;
+}
