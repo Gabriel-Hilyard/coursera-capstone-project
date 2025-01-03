@@ -15,20 +15,20 @@ const Footer = () => {
             <div className="FooterColumns">
                 <ul className="FooterLinks">
                     <li style={{marginBottom:'10px'}}>Footer Navigation</li>
-                    <li><a href='Footer' style={{textDecoration: 'none', color: 'black'}}>Home</a></li>
-                    <li><a href='Footer' style={{textDecoration: 'none', color: 'black'}}>About</a></li>
-                    <li><a href='Footer' style={{textDecoration: 'none', color: 'black'}}>Menu</a></li>
-                    <li><a href='Footer' style={{textDecoration: 'none', color: 'black'}}>Reservations</a></li>
-                    <li><a href='Footer' style={{textDecoration: 'none', color: 'black'}}>Order Online</a></li>
-                    <li><a href='Footer' style={{textDecoration: 'none', color: 'black'}}>Login</a></li>
+                    <li><a className="FooterLink" href='Footer'>Home</a></li>
+                    <li><a className="FooterLink" href='Footer'>About</a></li>
+                    <li><a className="FooterLink" href='Footer'>Menu</a></li>
+                    <li><a className="FooterLink" href='Footer'>Reservations</a></li>
+                    <li><a className="FooterLink" href='Footer'>Order Online</a></li>
+                    <li><a className="FooterLink" href='Footer'>Login</a></li>
                 </ul>
            
             
                 <ul className="FooterLinks">
                     <li style={{marginBottom:'10px'}}>Contact</li>
-                    <li>Address</li>
-                    <li>Phone Number</li>
-                    <li>E-mail</li>
+                    <li>1111 Fake Avenue</li>
+                    <li>(818) 888-8888</li>
+                    <li>littlelemon@example.com</li>
                 </ul>
           
           
