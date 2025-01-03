@@ -2,12 +2,13 @@ import React from 'react';
 import FooterImage from './images/restaurantFood.jpg';
 import "./Footer.css"
 import { FaInstagramSquare } from "react-icons/fa";
-
-
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { IconContext } from "react-icons";
 
 const Footer = () => {
     return (
-        <footer className="FooterBody"> 
+        <footer className="FooterBody">
             <div>
             <img src={FooterImage} alt="A plate of food in the footer" style={{height: '310px', marginRight:'50px'}}/>
             </div>
@@ -33,9 +34,11 @@ const Footer = () => {
           
                 <ul className="FooterLinks">
                     <li style={{marginBottom:'10px'}}>Social Media:</li>
-                    <li><a href='Footer' style={{textDecoration: 'none', color: 'black'}}><FaInstagramSquare /></a></li>
-                    <li><a href='Footer' style={{textDecoration: 'none', color: 'black'}}>Facebook</a></li>
-                    <li><a href='Footer' style={{textDecoration: 'none', color: 'black'}}>Twitter</a></li>
+                    <IconContext.Provider value={{className:'react-icons', size: 60, verticalAlign: 'middle'}}>
+                    <li><a href='Footer' style={{textDecoration: 'none'}}><FaInstagramSquare /></a></li>
+                    <li><a href='Footer' style={{textDecoration: 'none'}}><FaFacebookSquare /></a></li>
+                    <li><a href='Footer' style={{textDecoration: 'none'}}><FaSquareXTwitter /></a></li>
+                    </IconContext.Provider>
                 </ul>
             </div>
         </footer>
