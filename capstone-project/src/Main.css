@@ -1,0 +1,16 @@
+.heroSection {
+    height: 428px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+}
+
+.heroSectionText, p, h1, h2 {
+    margin: 15px;
+}
+
+.heroSectionText {
+    font-size: 20px;
+}
