@@ -1,10 +1,27 @@
 .heroSection {
     height: 428px;
-    background-color: green;
+    background-color: #495E57;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 500px;
+}
+
+.reservationButton {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.reservationButton:hover {
+    background-color: #DDA411;
+    color: black;
 }
 
 .heroSectionText, p, h1, h2 {
