@@ -10,7 +10,8 @@ const Footer = () => {
     return (
         <footer className="FooterBody">
             <div>
-            <img src={FooterImage} alt="A plate of food in the footer" style={{height: '310px', marginRight:'50px'}}/>
+            <img src={FooterImage} alt="A plate of food in the footer" 
+            style={{height: '400px', marginRight:'50px', borderRadius: '15px'}}/>
             </div>
             <div className="FooterColumns">
                 <ul className="FooterLinks">
@@ -33,8 +34,9 @@ const Footer = () => {
           
           
                 <ul className="FooterLinks">
-                    <li style={{marginBottom:'10px'}}>Social Media:</li>
-                    <IconContext.Provider value={{className:'react-icons', size: 60, verticalAlign: 'middle'}}>
+                    <li style={{marginBottom:'10px'}}>Socials</li>
+                    <IconContext.Provider 
+                    value={{className:'react-icons', size: 60, verticalAlign: 'middle'}}>
                     <li><a href='Footer' style={{textDecoration: 'none'}}><FaInstagramSquare /></a></li>
                     <li><a href='Footer' style={{textDecoration: 'none'}}><FaFacebookSquare /></a></li>
                     <li><a href='Footer' style={{textDecoration: 'none'}}><FaSquareXTwitter /></a></li>

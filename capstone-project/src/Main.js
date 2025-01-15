@@ -15,7 +15,7 @@ const Main = () => {
         <div className="heroSectionText">
         <h1>Little Lemon</h1>
         <h2>Chicago</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <p className='lemonDescription'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             <br /> Praesent in libero aliquet, volutpat eros et, commodo quam.
             <br /> Quisque in placerat lacus. Vestibulum sit amet egestas est. 
             <br />Etiam a sollicitudin nisl, in vulputate felis. </p>

@@ -14,12 +14,12 @@ const Nav = () => {
 
             </div>
         <ul className='navLinksStyle'>
-            <li><a href={Nav}>Home</a></li>
-            <li><a href={Nav}>About</a></li>
-            <li><a href={Nav}>Menu</a></li>
-            <li><a href={Nav}>Reservations</a></li>
-            <li><a href={Nav}>Order Online</a></li>
-            <li><a href={Nav}>Login</a></li>
+            <li><a className='navLinks' href={Nav}>Home</a></li>
+            <li><a className='navLinks' href={Nav}>About</a></li>
+            <li><a className='navLinks' href={Nav}>Menu</a></li>
+            <li><a className='navLinks' href={Nav}>Reservations</a></li>
+            <li><a className='navLinks' href={Nav}>Order Online</a></li>
+            <li><a className='navLinks'href={Nav}>Login</a></li>
         </ul>
 
         </nav>

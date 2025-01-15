@@ -8,8 +8,8 @@
 }
 
 .reservationButton {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 10px 20px;
     border: none;
     border-radius: 15px;
@@ -21,13 +21,21 @@
 
 .reservationButton:hover {
     background-color: #DDA411;
-    color: black;
+   
 }
 
-.heroSectionText, p, h1, h2 {
+.heroSectionText, h1, h2 {
+    margin: 15px;
+}
+
+.lemonDescription {
     margin: 15px;
 }
 
 .heroSectionText {
     font-size: 20px;
+}
+
+h1, h2 {
+    color: #DDA411;
 }

@@ -12,11 +12,11 @@
 
 }
 
-.navLinksStyle  {
+.navLinksStyle, .navLinks {
     display: flex;
     gap: 10px;
     list-style-type: none;
-    
+    color: black;
 }
 
 .navLinksStyle:hover {
