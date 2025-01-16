@@ -1,23 +1,29 @@
 .highlight {
-   
+    justify-content: center;
     margin: 50px;
+}
+
+.sectionTitle {
+    justify-items: center;
+    margin-bottom: 75px;
 }
 
 .highlightCards, p{
     display: flex;
     justify-content: center;
     gap: 100px;
-    color: black;
+  
     
 }
 
 .highlightCard {
-    background-color: grey;
+    background-color: #495E57;
     border-radius: 15px;
     padding-bottom: 30px;
+    box-shadow: 0px 0px 10px rgb(153, 153, 153);
 }
 
-img {
+.cardImage {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }

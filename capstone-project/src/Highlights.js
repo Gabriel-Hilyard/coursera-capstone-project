@@ -8,14 +8,15 @@ import cardImgThree from './images/spaghetti.jpg'
 const Highlights = () => {
     return (
     <div className='highlight'>
-        <div className='titleButton'>
+        <div className='sectionTitle'>
             <h1>Specials</h1>
         </div>
         <div className='highlightCards'>
             <div className='highlightCard'>
                 <img src={cardImgOne}
+                 className='cardImage'
                  alt='Bruchetta menu item'
-                 style={{height: '150px', BorderRadiusTopleft:'15px'}}/>
+                 style={{height: '180px'}}/>
                  <h2>Bruchetta</h2>
                  <p>Lorem ipsum dolor sit amet, 
                     <br/>consectetur adipiscing elit. 
@@ -25,8 +26,9 @@ const Highlights = () => {
             </div>
             <div className='highlightCard'>
                 <img src={cardImgTwo}
+                 className='cardImage'
                  alt='Greek salad menu item'
-                 style={{height: '150px'}}/>
+                 style={{height: '180px'}}/>
                  <h2>Greek Salad</h2>
                  <p>Lorem ipsum dolor sit amet, 
                     <br/>consectetur adipiscing elit. 
@@ -36,8 +38,9 @@ const Highlights = () => {
             </div>
             <div className='highlightCard'>
                 <img src={cardImgThree}
+                 className='cardImage'
                  alt='Penne pasta menu item'
-                 style={{height: '150px'}} />
+                 style={{height: '180px'}} />
                  <h2>Penne Pasta</h2>
                  <p>Lorem ipsum dolor sit amet, 
                     <br/>consectetur adipiscing elit. 

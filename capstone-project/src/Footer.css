@@ -5,6 +5,8 @@
     height: 702px;
     background-color: #495E57;
     width: 100%;
+    font-size: 25px;
+    
 }
 
 .FooterColumns {
@@ -20,7 +22,7 @@
     list-style-type: none;
     text-decoration: none;
     color: white;
-    line-height: 20px;
+    line-height: 40px;
 }
 
 .react-icons {
@@ -29,5 +31,5 @@
 
 li {
     margin: 0 20px 0 20px;
-    
+
 }
