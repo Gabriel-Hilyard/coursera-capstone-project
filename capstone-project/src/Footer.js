@@ -11,7 +11,7 @@ const Footer = () => {
         <footer className="FooterBody">
             <div>
             <img src={FooterLogo} alt="A plate of food in the footer" 
-            style={{height: '350px', marginRight:'100px'}}/>
+            style={{height: '300px', marginRight:'100px'}}/>
             </div>
             <div className="FooterColumns">
                 <ul className="FooterLinks">
