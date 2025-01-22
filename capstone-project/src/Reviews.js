@@ -11,23 +11,50 @@ const Reviews = () => {
             <h1>Reviews</h1>
          </div>
          <div className="reviewCards">
+
             <div className="reviewComponent">
-                <h3>Max Harper</h3>
+                <div className='reviewerDesc'>
+                <h3 style={{color: '#DDA411'}}>Max Harper</h3>
+                <p>4.5/5</p>
+                </div>
                 <img src={ReviewerOne}
                  alt='Reviewer'
                  style={{height: '200px', borderRadius: '15px'}}/>
+                 <p>Lorem ipsum dolor sit amet, 
+                    <br/>consectetur adipiscing elit. 
+                    <br/>Etiam sit amet rutrum libero.
+                    <br/> Nam quis odio a lectus tempus
+                    <br/> posuere in id mauris. </p>
             </div>
+            
             <div className="reviewComponent">
-                <h3>Jordan Blackwell</h3>
+                <div className='reviewerDesc'>
+                <h3 style={{color: '#DDA411'}}>Jordan Blackwell</h3>
+                <p>5/5</p>
+                </div>
                 <img src={ReviewerTwo}
                  alt='Reviewer'
                  style={{height: '200px', borderRadius: '15px'}}/>
+                 <p>Lorem ipsum dolor sit amet, 
+                    <br/>consectetur adipiscing elit. 
+                    <br/>Etiam sit amet rutrum libero.
+                    <br/> Nam quis odio a lectus tempus
+                    <br/> posuere in id mauris. </p>
             </div>
+            
             <div className="reviewComponent">
-                <h3>Kai Rivers</h3>
+              <div className='reviewerDesc'>
+                <h3 style={{color: '#DDA411'}}>Kai Rivers</h3>
+                <p>4.8/5</p>
+              </div>
                 <img src={ReviewerThree}
                  alt='Reviewer'
                  style={{height: '200px', borderRadius: '15px'}}/>
+                 <p>Lorem ipsum dolor sit amet, 
+                    <br/>consectetur adipiscing elit. 
+                    <br/>Etiam sit amet rutrum libero.
+                    <br/> Nam quis odio a lectus tempus
+                    <br/> posuere in id mauris. </p>
             </div>
          </div>
         </div>
