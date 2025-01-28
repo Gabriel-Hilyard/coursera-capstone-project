@@ -1,0 +1,30 @@
+.aboutComponent {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    gap: 20em;
+    padding: 0 15em; 
+    background-color: #495E57;
+    height: 30em;
+}
+
+.textSection {
+    flex: 1; /* Allow the text section to take up available space */
+    align-items: center;
+    max-width: 500px;
+    max-height: 400px;
+}
+
+.aboutImage {
+    flex: 1; /* Allow the image section to take up available space */
+    display: flex; /* Center the image */
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.aboutImage img {
+    max-width: 75%; /* Ensure the image scales within its container */
+    max-height: 450px; /* Limit the image height */
+    object-fit: cover;
+    border-radius: 15px;
+}

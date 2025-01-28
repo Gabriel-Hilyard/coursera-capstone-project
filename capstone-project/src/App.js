@@ -4,6 +4,7 @@ import Main from './Main.js'
 import Footer from './Footer.js'
 import Highlights from './Highlights.js'
 import Reviews from './Reviews.js'
+import About from './About.js'
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Nav />
       <Main />
       <Highlights />
+      <About />
       <Reviews />
       <Footer />
       </>

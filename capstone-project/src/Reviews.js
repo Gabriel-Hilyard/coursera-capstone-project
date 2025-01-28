@@ -7,9 +7,9 @@ import ReviewerThree from './images/ReviewerThree.jpg'
 const Reviews = () => {
     return (
         <div className="reviewSection"> 
-         <div className="reviewTitle">
+         
             <h1>Reviews</h1>
-         </div>
+         
          <div className="reviewCards">
 
             <div className="reviewComponent">
@@ -19,12 +19,14 @@ const Reviews = () => {
                 </div>
                 <img src={ReviewerOne}
                  alt='Reviewer'
-                 style={{height: '200px', borderRadius: '15px'}}/>
+                 style={{height: '250px', borderRadius: '15px'}}/>
+                 <div className='reviewText'>
                  <p>Lorem ipsum dolor sit amet, 
                     <br/>consectetur adipiscing elit. 
                     <br/>Etiam sit amet rutrum libero.
                     <br/> Nam quis odio a lectus tempus
                     <br/> posuere in id mauris. </p>
+                    </div>
             </div>
             
             <div className="reviewComponent">
@@ -34,12 +36,14 @@ const Reviews = () => {
                 </div>
                 <img src={ReviewerTwo}
                  alt='Reviewer'
-                 style={{height: '200px', borderRadius: '15px'}}/>
+                 style={{height: '250px', borderRadius: '15px'}}/>
+               <div className='reviewText'>
                  <p>Lorem ipsum dolor sit amet, 
                     <br/>consectetur adipiscing elit. 
                     <br/>Etiam sit amet rutrum libero.
                     <br/> Nam quis odio a lectus tempus
                     <br/> posuere in id mauris. </p>
+                    </div>
             </div>
             
             <div className="reviewComponent">
@@ -49,12 +53,14 @@ const Reviews = () => {
               </div>
                 <img src={ReviewerThree}
                  alt='Reviewer'
-                 style={{height: '200px', borderRadius: '15px'}}/>
+                 style={{height: '250px', borderRadius: '15px'}}/>
+                 <div className='reviewText'>
                  <p>Lorem ipsum dolor sit amet, 
                     <br/>consectetur adipiscing elit. 
                     <br/>Etiam sit amet rutrum libero.
                     <br/> Nam quis odio a lectus tempus
                     <br/> posuere in id mauris. </p>
+                  </div>
             </div>
          </div>
         </div>
@@ -67,4 +73,4 @@ const Reviews = () => {
 
 
 
-export default Reviews
+export default Reviews;
