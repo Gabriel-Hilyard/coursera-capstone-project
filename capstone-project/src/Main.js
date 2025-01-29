@@ -1,14 +1,12 @@
 import React from 'react';
 import './Main.css'
 import heroImg from './images/restaurant.jpg'
+import { Link } from 'react-router-dom';
 
 
 
 const Main = () => {
 
-    const handleReservationClick = () => {
-        window.location.href = '/reservations';
-    }
 
     return (
         <div className="heroSection">
@@ -19,9 +17,11 @@ const Main = () => {
             <br /> Praesent in libero aliquet, volutpat eros et, commodo quam.
             <br /> Quisque in placerat lacus. Vestibulum sit amet egestas est. 
             <br />Etiam a sollicitudin nisl, in vulputate felis. </p>
-        <button onClick={handleReservationClick} className='reservationButton'>
+        <Link to='./Reservations'>
+        <button className='reservationButton'>
             Reserve a table
         </button>
+        </Link>
         </div>
         <div className="heroSectionImg">
             <img src={heroImg} 
