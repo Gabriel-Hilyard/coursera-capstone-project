@@ -1,0 +1,16 @@
+.reservationComponent {
+    display: flex;
+    justify-content: center;
+}
+
+.reservationForm {
+    color: black;
+}
+
+.specialOccasionsSelect {
+    display: flex;
+}
+
+select {
+    color: white;
+}

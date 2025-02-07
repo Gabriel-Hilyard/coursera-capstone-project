@@ -1,12 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Nav from './Nav.js';
-import Main from './Main.js';
-import Footer from './Footer.js';
-import Highlights from './Highlights.js';
-import Reviews from './Reviews.js';
-import About from './About.js';
-import Reservations from './Reservations';
+import "react-datepicker/dist/react-datepicker.css";
+import Nav from './Components/Nav.js';
+import Main from './Components/Main.js';
+import Footer from './Components/Footer.js';
+import Highlights from './Components/Highlights.js';
+import Reviews from './Components/Reviews.js';
+import About from './Components/About.js';
+import Reservations from './Components/Reservations';
 import './App.css';
 
 function Home() {

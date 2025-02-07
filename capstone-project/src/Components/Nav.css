@@ -17,6 +17,7 @@
     gap: 10px;
     list-style-type: none;
     color: black;
+    text-decoration: none;
 }
 
 .navLinksStyle:hover {
