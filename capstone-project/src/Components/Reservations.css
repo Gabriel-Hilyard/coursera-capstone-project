@@ -1,16 +1,106 @@
+/* Center the form */
 .reservationComponent {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 55em;
+
 }
 
+/* Form container */
 .reservationForm {
-    color: black;
+  background: #495E57; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 350px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.specialOccasionsSelect {
-    display: flex;
+/* Input fields */
+input, select, .react-datepicker-wrapper {
+  width: 90%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
+/* Labels */
+label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  text-align: left;
+  width: 90%;
+}
+
+/* Party size input */
+.partySize input {
+  width: 10em; 
+  text-align: center;
+}
+
+/* Date Picker */
+.react-datepicker-wrapper {
+  width: 90%;
+}
+
+/* Occasion dropdown */
 select {
-    color: white;
+  
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  appearance: none; 
 }
+
+/* Consent section - align checkbox and label properly */
+.consentButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px; 
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* Checkbox - remove extra spacing */
+.consentButton input[type="checkbox"] {
+  margin: 0; 
+  transform: scale(1.2); 
+}
+
+/* Label - ensure alignment */
+.consentButton label {
+  font-size: 14px;
+  cursor: pointer;
+  white-space: nowrap; 
+}
+
+/* Submit Button */
+.submitBtn {
+  background-color: black;
+  color: #DDA411;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+  width: 100%;
+  transition: 0.3s ease;
+}
+
+.submitBtn:hover {
+  background-color: gray;
+}
+

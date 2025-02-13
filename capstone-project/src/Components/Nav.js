@@ -10,7 +10,11 @@ const Nav = () => {
 
             <div className='leftContainerStyle'>
                 <img src={HamburgerIcon} alt="Hamburger Menu" style={{alignItems: 'center', height: '20px', marginRight: '40px'}}/>
-                <img src={Logo} alt="Logo" style={{height: '50px'}}/>
+                <a href='/'>
+                <img src={Logo} 
+                alt="Logo" 
+                style={{height: '50px'}}/>
+                </a>
 
             </div>
         <ul className='navLinksStyle'>
